@@ -1,0 +1,31 @@
+                  DAY-2 ASSIGNMENT   OfJoi
+
+Q1
+
+class Employee2
+{
+String name;
+String yearOfJoining;
+String address;
+public Employee2(final String name,final String yearOfJoining,final String address)
+{
+this.name=name;
+this.yearOfJoining=yearOfJoining;
+this.address=address;
+}
+public String to String()
+{
+return String.valueOf(this.name)+" "+this.yearOfJoining+" "+this.address;
+}
+public class Employee1
+{
+public sttic void main(String[]args){
+final Employee2 E1=new Employee2("Robert","1994","64c-WallStrat");
+final Employee2 E2=new Employee2("sam","2000","68D-WallsStreat");
+final Employee2 E3-new Employee2("john","1999","26B-WallsStrat");
+System.out.println("name,yearOfJoining,address");
+System.out.println(E1);
+System.out.println(E2);
+System.out.println(E3);
+}
+}
